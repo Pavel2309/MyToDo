@@ -59,7 +59,6 @@ class UserPreferencesManager @Inject constructor(@ApplicationContext context: Co
         }
     }
 
-
     private object PreferencesKeys {
         val SORT_ORDER = stringPreferencesKey("sort_order")
         val HIDE_COMPLETED = booleanPreferencesKey("hide_completed")
