@@ -1,7 +1,6 @@
 package com.pavel2309.mytodo.data
 
 import androidx.room.*
-import com.pavel2309.mytodo.ui.tasks.SortOrder
 import kotlinx.coroutines.flow.Flow
 
 @Dao

@@ -17,6 +17,7 @@ buildscript {
         navigationFragmentVersion = '2.3.5'
         daggerVersion = "2.34"
         hiltVersion = '2.33-beta'
+        datastoreVersion = '1.0.0-alpha08'
     }
 
     repositories {
