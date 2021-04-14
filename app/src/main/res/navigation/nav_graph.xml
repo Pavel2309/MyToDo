@@ -8,6 +8,24 @@
     <fragment
         android:id="@+id/tasksFragment"
         android:name="com.pavel2309.mytodo.ui.tasks.TasksFragment"
-        android:label="fragment_tasks"
-        tools:layout="@layout/fragment_tasks" />
+        android:label="Tasks"
+        tools:layout="@layout/fragment_tasks">
+        <action
+            android:id="@+id/action_tasksFragment_to_detailTaskFragment"
+            app:destination="@id/detailTaskFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailTaskFragment"
+        android:name="com.pavel2309.mytodo.ui.detailtask.DetailTaskFragment"
+        android:label="{title}"
+        tools:layout="@layout/fragment_detail_task" >
+        <argument
+            android:name="task"
+            app:argType="com.pavel2309.mytodo.data.Task"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+    </fragment>
 </navigation>
