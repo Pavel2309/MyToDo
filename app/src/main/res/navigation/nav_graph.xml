@@ -28,4 +28,8 @@
             android:name="title"
             app:argType="string" />
     </fragment>
+    <dialog
+        android:id="@+id/deleteAllCompletedDialog"
+        android:name="com.pavel2309.mytodo.ui.dialogs.DeleteAllCompletedDialog"
+        android:label="DeleteAllCompletedDialog" /><action android:id="@+id/action_global_deleteAllCompletedDialog" app:destination="@id/deleteAllCompletedDialog"/>
 </navigation>
