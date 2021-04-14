@@ -1,5 +1,6 @@
 package com.pavel2309.mytodo.ui
 
+import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
@@ -32,3 +33,6 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
+
+const val ADD_TASK_RESULT_OK = Activity.RESULT_FIRST_USER
+const val EDIT_TASK_RESULT_OK = Activity.RESULT_FIRST_USER + 1

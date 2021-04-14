@@ -19,6 +19,8 @@ buildscript {
         hiltVersion = '2.33-beta'
         datastoreVersion = '1.0.0-alpha08'
         saveArgsVersion = '2.3.5'
+
+        fragmentVersion = '1.3.2'
     }
 
     repositories {
